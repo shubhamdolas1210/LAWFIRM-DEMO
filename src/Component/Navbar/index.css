@@ -1,0 +1,38 @@
+.Navbar {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: var(--css-black);
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 143px;
+  height: 30.3px;
+  margin-left: 140px;
+  align-items: center;
+}
+.Navbar-tab {
+  width: 431px;
+  height: 26px;
+  font-weight: 600;
+  color: var(--css-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-left: 35px;
+}
+.Navbar-btn {
+  width: 172px;
+  height: 47px;
+  border: 2px solid white;
+  background-color: var(--css-black);
+  color: var(--css-white);
+  text-align: center;
+  font-weight: 600;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 140px;
+}

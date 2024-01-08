@@ -1,0 +1,45 @@
+.heroSection {
+  display: flex;
+  width: 100%;
+  height: 536px;
+  border: 2px solid red;
+}
+.Content {
+  margin-left: 140px;
+  border: 2px solid yellowgreen;
+  width: 571px;
+  height: 194px;
+  margin-top: 100px;
+  color: var(--css-white);
+  display: inline;
+  font-size: 66px;
+}
+.ContentDetails {
+  width: 560px;
+  height: 99px;
+  margin-top: 320px;
+  margin-left: 140px;
+  color: var(--css-white);
+  opacity: 0.3;
+  position: absolute;
+  border: 2px solid green;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ImgSrc {
+  width: 443px;
+  height: 509px;
+  margin-top: 50px;
+  margin-left: 55px;
+  border: 2px solid orangered;
+  justify-content: flex-end;
+}
+.ImgSrc-frame {
+  width: 458px;
+  height: 458px;
+  border: 2px solid yellow;
+  border-radius: 55px;
+  background: rgba(227, 183, 72, 1);
+}
