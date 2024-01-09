@@ -2,44 +2,68 @@
   display: flex;
   width: 100%;
   height: 536px;
-  border: 2px solid red;
 }
 .Content {
   margin-left: 140px;
-  border: 2px solid yellowgreen;
   width: 571px;
   height: 194px;
-  margin-top: 100px;
+  margin-top: 110px;
   color: var(--css-white);
-  display: inline;
   font-size: 66px;
 }
 .ContentDetails {
   width: 560px;
   height: 99px;
-  margin-top: 320px;
+  margin-top: 340px;
   margin-left: 140px;
   color: var(--css-white);
   opacity: 0.3;
   position: absolute;
-  border: 2px solid green;
   font-size: 18px;
   font-weight: 500;
   display: flex;
   flex-wrap: wrap;
 }
-.ImgSrc {
+.ImgSrc img {
+  position: absolute;
   width: 443px;
   height: 509px;
-  margin-top: 50px;
-  margin-left: 55px;
-  border: 2px solid orangered;
-  justify-content: flex-end;
+  margin-top: 40px;
+  margin-left: 172px;
 }
 .ImgSrc-frame {
+  margin-top: 100px;
+  margin-left: 172px;
   width: 458px;
   height: 458px;
-  border: 2px solid yellow;
   border-radius: 55px;
-  background: rgba(227, 183, 72, 1);
+  background-color: var(--css-primary);
+}
+
+.Searchbar {
+  width: 438px;
+  height: 74px;
+  margin-top: 460px;
+  margin-left: -572px;
+  color: var(--css-white);
+  /* opacity: 0.1; */
+  position: relative;
+}
+/* .Searchbar input::placeholder {
+  color: var(--css-white);
+  opacity: 0.2;
+} */
+.search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 137px;
+  height: 62px;
+  margin-top: -67px;
+  margin-left: 295px;
+  color: var(--css-black);
+  border-radius: 43px;
+  background-color: var(--css-primary);
+  font-weight: 600;
 }

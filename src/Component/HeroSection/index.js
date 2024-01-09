@@ -20,11 +20,22 @@ export default () => {
           hac massa gravida arcu interdum proin curae.
         </p>
       </div>
+      <div className="Searchbar">
+        <input
+          placeholder="Enter your email address"
+          style={{
+            width: "438px",
+            height: "74px",
+            borderRadius: "43px",
+            fontWeight: "500",
+            paddingLeft: "40px",
+          }}
+        />
+        <buton className="search-btn">Let’s Talk</buton>
+      </div>
       <div className="ImgSrc">
-        <p>text</p>
-        <div className="ImgSrc-frame">
-          <p>text</p>
-        </div>
+        <img src="Image (1).png" alt="Img not visible" />
+        <div className="ImgSrc-frame"></div>
       </div>
     </div>
   );
