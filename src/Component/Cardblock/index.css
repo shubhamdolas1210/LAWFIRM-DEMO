@@ -1,0 +1,42 @@
+.cardblock {
+  width: 325px;
+  height: 330px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+}
+.cardblock img {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 18px;
+}
+.cardblock h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 55px;
+  color: var(--css-white);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.cardblock p {
+  width: 293px;
+  height: 69px;
+  color: var(--css-white);
+  margin-left: 20px;
+  opacity: 0.3;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: inline;
+}
+.btn {
+  width: 121px;
+  height: 43px;
+  color: var(--css-black);
+  border: 1px solid #e3b748;
+  border-radius: 23.5px;
+  background-color: var(--css-primary);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-right: 148px;
+}

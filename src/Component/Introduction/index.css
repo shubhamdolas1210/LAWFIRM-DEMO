@@ -1,0 +1,35 @@
+.marginSetter {
+  margin-top: 150px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.container {
+  width: 1065px;
+  height: 174px;
+  font-weight: 600;
+  font-size: 66px;
+  color: var(--css-white);
+  text-align: start;
+}
+.vertical-line.border-line {
+  border-left: 1px solid #6a6a6a;
+  height: 206px;
+  margin-top: -190px;
+  margin-left: 533px;
+}
+.right-Content h4 {
+  color: var(--css-white);
+  margin-top: -180px;
+  margin-left: 305px;
+  text-align: center;
+  font-size: 32px;
+}
+.right-Content p {
+  width: 475px;
+  height: 87px;
+  font-weight: 500;
+  color: var(--css-white);
+  opacity: 0.3;
+  margin-left: 563px;
+  margin-top: 10px;
+}
