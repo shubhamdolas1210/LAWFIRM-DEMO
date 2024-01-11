@@ -3,6 +3,8 @@ import HeroSection from "./Component/HeroSection";
 import Navbar from "./Component/Navbar";
 import Introduction from "./Component/Introduction";
 import ChooseCard from "./Component/ChooseCard";
+import Practices from "./Component/Practices";
+import Clients from "./Component/Clients";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <HeroSection />
       <Introduction />
       <ChooseCard />
+      <Practices />
+      <Clients />
     </div>
   );
 }

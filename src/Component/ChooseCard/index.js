@@ -4,7 +4,7 @@ import "./index.css";
 export default () => {
   return (
     <div className="marginSetter">
-      <h4>Why Choose us?</h4>
+      <h1>Why Choose us?</h1>
       <div className="card-row">
         <Cardblock />
         <div className="cardblock special-card">

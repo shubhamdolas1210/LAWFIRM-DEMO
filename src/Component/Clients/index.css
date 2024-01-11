@@ -1,0 +1,54 @@
+.marginSetter {
+  margin-top: 150px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 100px;
+}
+
+h4 {
+  color: var(--css-white);
+  text-align: start;
+  flex-wrap: wrap;
+  font-size: 54px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.ert {
+  margin-bottom: 90px;
+}
+.client-row {
+  display: flex;
+  gap: 20px;
+}
+.client-special-card {
+  background-color: #2e2e2e;
+  border-radius: 14px;
+}
+.carousel-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -100px;
+  margin-right: 58px;
+}
+.btn-left {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  color: var(--css-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-right {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  color: var(--css-white);
+  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 13px;
+}

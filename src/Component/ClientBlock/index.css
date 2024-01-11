@@ -1,0 +1,38 @@
+.clientblock {
+  width: 325px;
+  height: 310px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+}
+.clientblock img {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+.clientblock h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: start;
+  margin-left: 20px;
+  color: var(--css-white);
+  margin-bottom: 5px;
+}
+.clientblock h4 {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+  margin-left: 22px;
+  color: var(--css-white);
+  margin-bottom: 15px;
+}
+.clientblock p {
+  width: 293px;
+  height: 69px;
+  color: var(--css-white);
+  margin-left: 20px;
+  opacity: 0.3;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: inline;
+}
