@@ -30,10 +30,18 @@ h4 {
   margin-top: -100px;
   margin-right: 58px;
 }
+.carousel-btn button {
+  cursor: pointer;
+}
+
+.carousel-btn button:hover {
+  background-color: var(--css-primary);
+}
 .btn-left {
   width: 90px;
   height: 90px;
   border-radius: 50%;
+  border: none;
   object-fit: cover;
   color: var(--css-white);
   display: flex;
@@ -44,6 +52,7 @@ h4 {
   width: 90px;
   height: 90px;
   border-radius: 50%;
+  border: none;
   object-fit: cover;
   color: var(--css-white);
   transform: rotate(180deg);
