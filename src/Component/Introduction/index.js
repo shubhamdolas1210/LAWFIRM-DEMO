@@ -4,7 +4,7 @@ export default () => {
   return (
     <div>
       <div className="marginSetter">
-        <div className="container">
+        <div className="content">
           <p>Let’s Introduce</p>
           <p>Ourself</p>
         </div>

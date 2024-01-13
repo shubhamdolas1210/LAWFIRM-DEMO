@@ -1,0 +1,35 @@
+.marginS {
+  margin-top: 100px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.contain h1 {
+  font-size: 54px;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-start;
+  color: var(--css-white);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contain p {
+  width: 100%;
+  color: var(--css-white);
+  opacity: 0.3;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 335px;
+}
+.wrapper {
+  background-color: #1d1d1d;
+  margin-top: 50px;
+}

@@ -3,13 +3,21 @@
   margin-left: 140px;
   margin-right: 140px;
 }
-.container {
+.content {
   width: 1065px;
   height: 174px;
   font-weight: 600;
   font-size: 66px;
   color: var(--css-white);
   text-align: start;
+}
+.content p {
+  color: var(--css-white);
+
+  font-size: 54px;
+  font-weight: 600;
+  display: flex;
+  margin-bottom: 0px;
 }
 .vertical-line.border-line {
   border-left: 1px solid #6a6a6a;

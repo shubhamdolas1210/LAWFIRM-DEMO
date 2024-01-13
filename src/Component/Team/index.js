@@ -2,7 +2,7 @@ import "./index.css";
 
 export default () => {
   return (
-    <div className="team-container">
+    <div>
       <h1>Our Team</h1>
       <div className="members-wrapper">
         <div className="member-row">

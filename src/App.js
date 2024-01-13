@@ -6,7 +6,7 @@ import ChooseCard from "./Component/ChooseCard";
 import Practices from "./Component/Practices";
 import Clients from "./Component/Clients";
 import Team from "./Component/Team";
-
+import Faq from "./Component/Faq";
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ function App() {
       <Practices />
       <Clients />
       <Team />
+      <Faq />
     </div>
   );
 }
