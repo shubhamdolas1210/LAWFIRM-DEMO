@@ -7,6 +7,8 @@ import Practices from "./Component/Practices";
 import Clients from "./Component/Clients";
 import Team from "./Component/Team";
 import Faq from "./Component/Faq";
+import NewsLetter from "./Component/NewsLetter";
+import Footer from "./Component/Footer";
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ function App() {
       <Clients />
       <Team />
       <Faq />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 }

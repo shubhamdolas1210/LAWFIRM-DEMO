@@ -1,0 +1,39 @@
+.Navbar {
+  display: flex;
+  height: 367px;
+  width: 100%;
+  background-color: var(--css-black);
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 140px;
+  height: 30.3px;
+  margin-left: 140px;
+  align-items: center;
+}
+.Navbar-tab {
+  font-weight: 600;
+  color: var(--css-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+.Footer {
+  color: var(--css-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  background-color: var(--css-black);
+  margin-left: 430px;
+  margin-right: 490px;
+  margin-top: -80px;
+}
+.icon-logo {
+  display: flex;
+}
